@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    font-family: "Montserrat";
+    margin: 0px;
+}
+
+header {
+    display: flex;
+
+    flex-direction: column;
+    background: #6a6e6e;
+    padding-bottom: 3em;
+    margin: auto;
+}
+
+.navbar {
+
+    padding: 2.5em 2em;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.logo {
+    height: 2.5em;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+
+
+}
+
+a {
+
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button.button {
+
+
+    font-size: 1em;
+    padding: 1em 2em;
+    color: #ffffff;
+    background: #6a6e6e;
+    border: 0.01em solid white;
+}
+
+img.bar-solid {
+    height: 2.5em;
+    display: none;
+    visibility: hidden;
+}
+
+.enpowering {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+
+.enpowering .enp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.enp h1 {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    color: #ffffff;
+}
+
+.enp p {
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    color: #ffffff;
+
+}
+
+.container {
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5em 1em;
+    background: #ffffff;
+
+}
+
+.container img {
+    height: 2vh;
+}
+
+.container input {
+    font-size: 1vw;
+    width: 12vw;
+    height: 5vh;
+
+    border: none;
+}
+
+.container button {
+    width: 7vw;
+    height: 4vh;
+    font-size: 1vw;
+
+    color: #ffffff;
+    background: #159178;
+    font-weight: 600;
+    border: none;
+
+}
+
+.target {
+    margin: auto;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.target h1.targetHead {
+    padding-top: 10vh;
+    font-size: 3.5vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.calculation {
+    margin-top: 4vw;
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+}
+
+.calculation h1 {
+    font-size: 3.5vw;
+
+}
+
+.calculation p {
+    font-size: 1.4vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+
+.target img {
+    width: 100vw;
+    height: 50vh;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10vh 10vw;
+
+}
+
+h1.con {
+    text-align: center;
+    font-size: 3.7vw;
+    margin-bottom: 2vw;
+}
+
+.container11 {
+    margin: 4vw 0vw;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.section {
+    margin-top: 3vw;
+    align-items: center;
+}
+
+.section h1 {
+    font-size: 2.5vw;
+}
+
+.section p {
+    margin: 2vw 0vw;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.section button {
+    width: 14vw;
+    height: 6vh;
+    font-size: 1.4vw;
+
+    color: #ffffff;
+    background: #159178;
+    font-weight: 600;
+    border: none;
+}
+
+.container11 img {
+
+    height: 40vh;
+    width: 40vw;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+
+
+    justify-content: space-around;
+}
+
+.head h1 {
+    font-size: 3.5vw;
+
+}
+
+.head p {
+
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.Teams {
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about img {
+    height: 60vh;
+    width: 25vw;
+}
+
+.about h3 {
+    margin-top: 3vw;
+    font-size: 1.5vw;
+}
+
+.about p {
+    margin-top: 20px;
+    font-size: 1vw;
+}
+
+footer {
+    margin-top: 50px;
+    background: #1f1f1f;
+
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+
+    justify-content: space-between;
+}
+
+.bar img {
+    height: 3vw;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+
+    gap: 2vw;
+}
+
+.social img {
+    filter: invert();
+    height: 2vh;
+}
+
+.option {
+    align-items: center;
+
+    color: #ffffff;
+    display: flex;
+
+    justify-content: space-around;
+    padding-bottom: 2vw;
+    padding-top: 40px;
+    border-top: 1px solid #ffffff;
+}
+
+.option1 h3 {
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.option1 li {
+    list-style-type: none;
+    padding-bottom: 2vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1300px) {
+    img.logo {
+        height: 3vh;
+    }
+
+    .nav {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    button.button {
+        display: none;
+        visibility: hidden;
+
+    }
+
+    img.bar-solid {
+        display: block;
+        visibility: visible;
+        height: 3vh;
+
+    }
+
+    .enpowering {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .enpowering img {
+        height: 40vh;
+        width: 80vw;
+    }
+
+    .enpowering .enp {
+        align-items: center;
+    }
+
+    .enp h1 {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+        color: #ffffff;
+    }
+
+    .enp p {
+        font-size: 2vw;
+        margin-bottom: 3vw;
+        color: #ffffff;
+
+    }
+
+    .container {
+        width: 50vw;
+        height: 4vh;
+        justify-content: space-between;
+
+    }
+
+
+    .container img {
+        height: 3vh;
+        width: 3vw;
+
+
+    }
+
+    .container input {
+        width: 30vw;
+        font-size: 1.5vw;
+    }
+
+    .container button {
+        font-size: 1.5vw;
+
+
+        width: 10vw;
+    }
+
+    .target {
+        margin: auto;
+        width: 100vw;
+
+        align-items: center;
+
+    }
+
+    h1.targetHead {
+        font-size: 17vw;
+    }
+
+    .calculation {
+        padding: 0px 10px;
+    }
+
+    .container1 {
+        margin: auto;
+        align-items: center;
+        margin: 9vh 0vw;
+    }
+
+    h1.con {
+        margin: 4vh 0vw;
+        font-size: 5vw;
+    }
+
+    .container11 {
+        margin: auto;
+        align-items: center;
+        margin: 2vh 0vw;
+
+    }
+
+    .contain1 {
+        flex-direction: column-reverse;
+    }
+
+    .contain2 {
+        flex-direction: column;
+    }
+
+    .contain3 {
+        flex-direction: column-reverse;
+    }
+
+    .container11 img {
+
+        height: 30vh;
+        width: 50vw;
+    }
+
+    .section {
+        text-align: center;
+    }
+
+    .section h1 {
+        font-size: 3vw;
+    }
+
+    .section p {
+
+        font-size: 2vw;
+    }
+
+    .section button {
+        width: 15vw;
+        height: 3.5vh;
+        font-size: 1.3vw;
+        margin-bottom: 3vw;
+    }
+
+
+    .head {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+        margin: 3vw 0vw;
+    }
+
+    .head h1 {
+        font-size: 4vw;
+        margin-bottom: 1vw;
+    }
+
+    .head p {
+        margin: 1vw 0vw;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    .Teams {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about {
+        padding: 2vh 0vw;
+    }
+
+    .about img {
+        height: 60vh;
+        width: 55vw;
+    }
+
+    .about h3 {
+        margin-top: 1vw;
+        font-size: 2.3vw;
+    }
+
+    .about p {
+        margin: 1vw 0vw;
+        font-size: 1.7vw;
+    }
+
+    .bar {
+        gap: 2vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bar img {
+
+        height: 2.5vw;
+
+    }
+
+    .social img {
+        filter: invert();
+        height: 2.5vw;
+
+    }
+
+
+}
+
+@media screen and (max-width:540px) {
+
+    .container {
+        width: 50vw;
+        height: 3vh;
+        justify-content: space-between;
+
+    }
+
+
+    .container img {
+        height: 3vh;
+        width: 3vw;
+
+
+    }
+
+    .container input {
+        width: 30vw;
+        height: 3vh;
+
+        font-size: 2.2vw;
+    }
+
+    .container button {
+        font-size: 1.7vw;
+
+        height: 2.5vh;
+
+        width: 13vw;
+    }
+
+    .about img {
+        height: 40vh;
+        width: 60vw;
+    }
+
+    .about h3 {
+        margin-top: 1vw;
+        font-size: 3vw;
+    }
+
+    .about p {
+        margin: 1vw 0vw;
+        font-size: 2.5vw;
+    }
+
+}
